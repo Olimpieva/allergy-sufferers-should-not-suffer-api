@@ -1,0 +1,33 @@
+{
+  "name": "allergy-sufferers-should-not-suffer-api",
+  "version": "1.0.0",
+  "description": "REST API with Express, Node and MongoDB for product barcode scanning service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint .",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olimpieva/allergy-sufferers-should-not-suffer-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olimpieva/allergy-sufferers-should-not-suffer-api/issues"
+  },
+  "homepage": "https://github.com/Olimpieva/allergy-sufferers-should-not-suffer-api#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
